@@ -1,0 +1,20 @@
+pretrained_lvlm_name_or_path: /mnt/data/lb/Remake/UniWorld//checkpoints/flux_qwen2p5vl_7b_vlm_mlp_siglip_stage2_ts_1024_bs42x8x1_fa_any_11ratio_ema999_ocr_adamw_t5_1p0_lr5e-6_mask_refstyle_extract/checkpoint-20000/model_ema
+pretrained_denoiser_name_or_path: /mnt/data/checkpoints/black-forest-labs/FLUX.1-dev/
+pretrained_siglip_name_or_path: /mnt/data/checkpoints/google/siglip2-so400m-patch16-512
+joint_with_t5: false
+
+seed: 42
+allow_tf32: false
+
+output_dir: /mnt/data/lb/Remake/UniWorld//eval_output/gedit
+
+num_images_per_prompt: 1
+num_inference_steps: 28
+guidance_scale: 3.5
+height: 1024
+width: 1024
+
+gedit_prompt_path: gedit_edit.json
+gedit_image_dir: /mnt/data/lb/Remake/gedit_bench_eval_images
+resized_height: 1024
+resized_width: 1024
