@@ -1,0 +1,4 @@
+transformers==4.50.0
+#qwen-vl-utils
+bitsandbytes
+numpy
