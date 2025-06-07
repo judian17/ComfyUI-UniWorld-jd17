@@ -7,7 +7,7 @@ Unofficial ComfyUI implementation of [UniWorld-V1](https://github.com/PKU-YuanGr
 
 ![示例图](assets/example.png)
 
-大概也许是实现了吧：）
+图像编辑功能大概也许是实现了吧：）
 
 权重提取：你可以使用 [extract_uniworld_weights](assets/extract_uniworld_weights.py) 从 [UniWorld](https://huggingface.co/LanguageBind/UniWorld-V1) 模型中提取 Flux 模型权重和剩余权重。示例：
 
@@ -31,13 +31,20 @@ python "E:\comfyui\UniWorld-V1\extract_uniworld_weights.py" "E:\models\diffusers
 ## 下载
 以下是部分预处理过的模型权重的下载链接：
 
-来自 UniWorld-V1 的 Flux-fp8 权重：https://www.modelscope.cn/models/ahaha2024/UniWorld-v1-flux-comfy-fp8/
+来自 UniWorld-V1 的 Flux 权重：
 
-UniWorld-v1-flux-comfy-fp8
-来自 UniWorld-V1 的 Qwen2.5VL-NF4 权重：https://www.modelscope.cn/models/ahaha2024/UniWorld-v1-qwen2.5vl-nf4/
+[UniWorld-v1-flux-comfy-fp8](https://www.modelscope.cn/models/ahaha2024/UniWorld-v1-flux-comfy-fp8/)
 
-UniWorld-v1-qwen2.5vl-nf4
-bf16 版本待上传。你也可以选择自行下载官方模型，并使用上述提供的脚本进行处理。[config.json](assets/bf16/config.json) 是 bf16 版 UniWorld Encoder 模型的配置文件，[config.json](assets/nf4/config.json) 是 nf4 版 UniWorld Encoder 模型的配置文件。
+
+[UniWorld-v1-flux-bf16](https://www.modelscope.cn/models/ahaha2024/UniWorld-v1-flux-bf16)
+
+来自 UniWorld-V1 的 Qwen2.5VL 权重：
+
+[UniWorld-v1-qwen2.5vl-nf4](https://www.modelscope.cn/models/ahaha2024/UniWorld-v1-qwen2.5vl-nf4/)
+
+[UniWorld-v1-qwen2.5vl-bf16](https://www.modelscope.cn/models/ahaha2024/UniWorld-v1-qwen2.5vl-bf16)
+
+你也可以选择自行下载官方模型，并使用上述提供的脚本进行处理。[config.json](assets/bf16/config.json) 是 bf16 版 UniWorld Encoder 模型的配置文件，[config.json](assets/nf4/config.json) 是 nf4 版 UniWorld Encoder 模型的配置文件。
 
 ## 补充说明
 
