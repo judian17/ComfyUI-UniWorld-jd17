@@ -1,5 +1,7 @@
 # ComfyUI-UniWorld-jd17
-Unofficial ComfyUI implementation of [UniWorld-V1](https://github.com/PKU-YuanGroup/UniWorld-V1).UniWorld-V1的comfyui实现。
+Unofficial ComfyUI implementation of the [UniWorld-V1](https://github.com/PKU-YuanGroup/UniWorld-V1) of image editting.
+
+UniWorld的图像编辑部分功能在comfyui中的尝试实现。
 
 ## 介绍
 
