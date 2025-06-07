@@ -10,7 +10,7 @@ Repository = "https://github.com/judian17/ComfyUI-UniWorld-jd17"
 #  Used by Comfy Registry https://registry.comfy.org
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "judian17"
 DisplayName = "ComfyUI-UniWorld-jd17"
 Icon = ""
 includes = []
