@@ -9,6 +9,8 @@ Unofficial ComfyUI implementation of [UniWorld-V1](https://github.com/PKU-YuanGr
 
 图像编辑功能大概也许是实现了吧：）
 
+**注意需要确保comfyui环境中transformers==4.50.0（至少我测试4.52.3会报错，更低版本不清楚）**
+
 权重提取：你可以使用 [extract_uniworld_weights](assets/extract_uniworld_weights.py) 从 [UniWorld](https://huggingface.co/LanguageBind/UniWorld-V1) 模型中提取 Flux 模型权重和剩余权重。示例：
 
 ```python
