@@ -1,0 +1,16 @@
+[project]
+name = "uniworld-jd17"
+description = "Unofficial ComfyUI implementation of [a/UniWorld-V1](https://github.com/PKU-YuanGroup/UniWorld-V1)."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["transformers==4.50.0", "#qwen-vl-utils", "bitsandbytes", "numpy"]
+
+[project.urls]
+Repository = "https://github.com/judian17/ComfyUI-UniWorld-jd17"
+#  Used by Comfy Registry https://registry.comfy.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfyUI-UniWorld-jd17"
+Icon = ""
+includes = []
